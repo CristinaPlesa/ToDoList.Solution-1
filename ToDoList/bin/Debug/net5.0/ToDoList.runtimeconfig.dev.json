@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/torch/.dotnet/store/|arch|/|tfm|",
-      "/Users/torch/.nuget/packages"
+      "/Users/cristina/.dotnet/store/|arch|/|tfm|",
+      "/Users/cristina/.nuget/packages"
     ]
   }
 }

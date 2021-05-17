@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj": {}
+    "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj": {}
   },
   "projects": {
-    "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj": {
+    "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj",
+        "projectUniqueName": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj",
         "projectName": "ToDoList.Tests",
-        "projectPath": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj",
-        "packagesPath": "/Users/torch/.nuget/packages/",
-        "outputPath": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList.Tests/obj/",
+        "projectPath": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList.Tests/ToDoList.Tests.csproj",
+        "packagesPath": "/Users/cristina/.nuget/packages/",
+        "outputPath": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/torch/.nuget/NuGet/NuGet.Config"
+          "/Users/cristina/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/ToDoList.csproj": {
-                "projectPath": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/ToDoList.csproj"
+              "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/ToDoList.csproj": {
+                "projectPath": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/ToDoList.csproj"
               }
             }
           }
@@ -74,17 +74,17 @@
         }
       }
     },
-    "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/ToDoList.csproj": {
+    "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/ToDoList.csproj",
+        "projectUniqueName": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/ToDoList.csproj",
-        "packagesPath": "/Users/torch/.nuget/packages/",
-        "outputPath": "/Users/torch/Desktop/Epicodus/Week9/ToDoList.Solution-1/ToDoList/obj/",
+        "projectPath": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/ToDoList.csproj",
+        "packagesPath": "/Users/cristina/.nuget/packages/",
+        "outputPath": "/Users/cristina/Desktop/Epicodus/ToDoList.Solution-1/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/torch/.nuget/NuGet/NuGet.Config"
+          "/Users/cristina/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -107,6 +107,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.69.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
